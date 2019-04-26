@@ -26,7 +26,7 @@ module Lab2_140L (
  input wire [7:0] Gl_r2           , // 8bit number 1
  output wire [7:0] L2_adder_data   ,   // 8 bit ascii sum
  output wire L2_adder_rdy          , //pulse
- output wire [7:0] L2_led
+ output wire [7:0] L2_led);
  //assign C_out;
  
  //if(gl_subtract ==1) begin
@@ -34,47 +34,37 @@ module Lab2_140L (
 	//assign g2_r2 = Gl_r2[3:0];
 	//g2_r2 = ~gl_r2 1;
  //end else begin
-		   	
-	fullAdder(
+ 
+fullAdder(
          .A(Gl_r1[0]),
 			.B(Gl_r2[0]),
-			0,
-			.S(L2_LED[0]),
-			C_out1);
+			.C_in(0),
+			.S(L2_led[0]),
+			.C_out(C_out1));
 			
 	fullAdder(
-         Gl_r1[1]
-			Gl_r2[1],
-			C_out1,
-			S[1],
-			C_out2);
+         .A(Gl_r1[1]),
+			.B(Gl_r2[1]),
+			.C_in(C_out1),
+			.S(L2_led[1]),
+			.C_out(C_out2));
 			
 	fullAdder(
-         Gl_r1[2]
-			Gl_r2[2],
-			C_out2,
-			S[2],
-			C_out3);
+        .A(Gl_r1[2]),
+			.B(Gl_r2[2]),
+			.C_in(C_out2),
+			.S(L2_led[2]),
+			.C_out(C_out3));
 			
 	fullAdder(
-         Gl_r1[3]
-			Gl_r2[3],
-			C_out3,
-			S[3],
-			C_out4);
-			
-	L2_adder_data[0] =S[0];
-	L2_adder_data[1] =S[1];
-	L2_adder_data[2] =S[2];
-	L2_adder_data[3] =S[3];
-	L2_adder_data[4] = C_out4;
+         .A(Gl_r1[3]),
+			.B(Gl_r2[3]),
+			.C_in(C_out3),
+			.S(L2_led[3]),
+			.C_out(C_out4));
+	L2_led = {0,0,0,C_out4, S[3],S[2],S[1],S[0]};
 	
- 
-	
-    
- 
- 
-);
+
 
 endmodule
 
@@ -107,12 +97,12 @@ module fullAdder(
 			output S,
 			output C_out);
 
-wire A;
-wire B;
-wire S, C;
-assign S = (A ^ B) ^ C_in;
-assign C_out = (A & B) | C_in & (A ^ B);
-
+	wire A;
+	wire B;
+	wire S, C_in;
+	assign S = (A ^ B) ^ C_in;
+	assign C_out = (A & B) | C_in & (A ^ B);
+end module 
 
 
 end module
