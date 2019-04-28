@@ -27,45 +27,74 @@ module Lab2_140L (
  output wire [7:0] L2_adder_data   ,   // 8 bit ascii sum
  output wire L2_adder_rdy          , //pulse
  output wire [7:0] L2_led);
- //assign C_out;
  
- //if(gl_subtract ==1) begin
-	//assign gl_r1 = Gl_r1[3:0];
-	//assign g2_r2 = Gl_r2[3:0];
-	//g2_r2 = ~gl_r2 1;
- //end else begin
+ //wire G1_r2_new;
+ wire [3:0] Gl_r2_new;
+ wire S1;
+ wire S2;
+ wire S3;
+ wire S4;
+ wire C_out1;
+ wire C_out2;
+ wire C_out3;
+ wire C_out4;
  
-fullAdder(
+ 	
+			//when G1_subtract = 0, G1_r2
+			//When G2_subtract = 1, ~G1_r2
+			//assign G1_r2_new = Gl_subtract ^ Gl_r2[0];
+			//assign G1_r2_new = Gl_subtract ^ Gl_r2;
+ assign Gl_r2_new[0] = Gl_subtract ^ Gl_r2[0];
+ assign Gl_r2_new[1] = Gl_subtract ^ Gl_r2[1];
+ assign Gl_r2_new[2] = Gl_subtract ^ Gl_r2[2];
+ assign Gl_r2_new[3] = Gl_subtract ^ Gl_r2[3];
+ 
+			/*
+				fullAdder(
          .A(Gl_r1[0]),
-			.B(Gl_r2[0]),
-			.C_in(0),
-			.S(L2_led[0]),
+			.B(Gl_r2_new),
+			.C_in(Gl_subtract),
+			.S(S1),
 			.C_out(C_out1));
+			*/
+	fullAdder(
+         .A(Gl_r1[0]),
+			.B(Gl_r2_new[0]),
+			.C_in(Gl_subtract),
+			.S(S1),
+			.C_out(C_out1));
+			
+
 			
 	fullAdder(
          .A(Gl_r1[1]),
 			.B(Gl_r2[1]),
 			.C_in(C_out1),
-			.S(L2_led[1]),
+			.S(S2),
 			.C_out(C_out2));
 			
 	fullAdder(
         .A(Gl_r1[2]),
 			.B(Gl_r2[2]),
 			.C_in(C_out2),
-			.S(L2_led[2]),
+			.S(S3),
 			.C_out(C_out3));
 			
 	fullAdder(
          .A(Gl_r1[3]),
 			.B(Gl_r2[3]),
 			.C_in(C_out3),
-			.S(L2_led[3]),
+			.S(S4),
 			.C_out(C_out4));
-	L2_led = {0,0,0,C_out4, S[3],S[2],S[1],S[0]};
-	
 
-
+	assign L2_led = {1'b0,1'b0,1'b0,C_out4, S4,S3,S2,S1};
+	sigDelay(
+				.sigOut(L2_adder_rdy),
+				.sigIn(Gl_adder_start),
+				.clk(clk),
+				.rst(Gl_rst)
+				);
+	assign L2_adder_data = { 1'b0, 1'b0, 1'b1, C_out4, S4, S3, S2, S1};
 endmodule
 
 module sigDelay(
@@ -97,13 +126,10 @@ module fullAdder(
 			output S,
 			output C_out);
 
-	wire A;
-	wire B;
-	wire S, C_in;
 	assign S = (A ^ B) ^ C_in;
 	assign C_out = (A & B) | C_in & (A ^ B);
-end module 
+endmodule 
 
 
-end module
+//endmodule
 		
