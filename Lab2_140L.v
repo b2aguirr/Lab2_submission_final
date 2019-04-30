@@ -30,6 +30,7 @@ module Lab2_140L (
  
  //wire G1_r2_new;
  wire [3:0] Gl_r2_new;
+ //wire [3:0] neg;
  wire S1;
  wire S2;
  wire S3;
@@ -38,6 +39,9 @@ module Lab2_140L (
  wire C_out2;
  wire C_out3;
  wire C_out4;
+ reg [7:0] result_temp;
+ reg [7:0] neg;
+ //reg [7:0] led_temp;
  
  	
 			//when G1_subtract = 0, G1_r2
@@ -57,7 +61,7 @@ module Lab2_140L (
 			.S(S1),
 			.C_out(C_out1));
 			*/
-	fullAdder(
+	fullAdder f1(
          .A(Gl_r1[0]),
 			.B(Gl_r2_new[0]),
 			.C_in(Gl_subtract),
@@ -66,35 +70,64 @@ module Lab2_140L (
 			
 
 			
-	fullAdder(
+	fullAdder f2(
          .A(Gl_r1[1]),
-			.B(Gl_r2[1]),
+			.B(Gl_r2_new[1]),
 			.C_in(C_out1),
 			.S(S2),
 			.C_out(C_out2));
 			
-	fullAdder(
+	fullAdder f3(
         .A(Gl_r1[2]),
-			.B(Gl_r2[2]),
+			.B(Gl_r2_new[2]),
 			.C_in(C_out2),
 			.S(S3),
 			.C_out(C_out3));
 			
-	fullAdder(
+	fullAdder f4(
          .A(Gl_r1[3]),
-			.B(Gl_r2[3]),
+			.B(Gl_r2_new[3]),
 			.C_in(C_out3),
 			.S(S4),
 			.C_out(C_out4));
 
-	assign L2_led = {1'b0,1'b0,1'b0,C_out4, S4,S3,S2,S1};
-	sigDelay(
+	//assign L2_led = {1'b0,1'b0,1'b0,C_out4, S4,S3,S2,S1};
+	sigDelay sDelay(
 				.sigOut(L2_adder_rdy),
 				.sigIn(Gl_adder_start),
 				.clk(clk),
 				.rst(Gl_rst)
 				);
-	assign L2_adder_data = { 1'b0, 1'b0, 1'b1, C_out4, S4, S3, S2, S1};
+	
+	//assign L2_led = {1'b0,1'b0,1'b0,C_out4 ^ Gl_subtract, S4,S3,S2,S1};
+	assign L2_led = {1'b0,1'b0,1'b0, C_out4 ^ Gl_subtract, S4,S3,S2,S1};
+	
+	
+	//assign L2_adder_data = { 1'b0, 1'b0, 1'b1, C_out4, S4, S3, S2, S1};
+	always @ (*) begin
+	 if(C_out4 == 1'b0) begin // carry out == 0
+		//result_temp = { 1'b0, 1'b1, 1'b0,1'b1, S4, S3, S2, S1};
+		result_temp = { 1'b0, 1'b1, 1'b0,1'b1, S4, S3, S2, S1};
+		/*if(Gl_subtract == 1'b1) begin
+		   neg = ~result_temp;
+			result_temp[0] = neg[0];
+			result_temp[1] = neg[1];
+			result_temp[2] = neg[2];
+			result_temp[3] = neg[3];
+			end
+		*/
+	//	led_temp = { 1'b0, 1'b0, 1'b0, C_out4, S4, S3, S2, S1};
+	 end else begin
+		result_temp = { 1'b0, 1'b0, 1'b1, 1'b1, S4, S3, S2, S1};
+		
+		//led_temp = { 1'b0, 1'b0, 1'b0, C_out4, S4, S3, S2, S1};
+	 end
+	 
+		end  
+	 
+	 assign L2_adder_data = {result_temp[7],result_temp[6],result_temp[5],result_temp[4],result_temp[3],result_temp[2],result_temp[1],result_temp[0]};
+	// assign L2_led = led_temp[7:0];
+	   
 endmodule
 
 module sigDelay(
@@ -126,6 +159,7 @@ module fullAdder(
 			output S,
 			output C_out);
 
+	
 	assign S = (A ^ B) ^ C_in;
 	assign C_out = (A & B) | C_in & (A ^ B);
 endmodule 
