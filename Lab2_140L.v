@@ -105,9 +105,12 @@ module Lab2_140L (
 	
 	//assign L2_adder_data = { 1'b0, 1'b0, 1'b1, C_out4, S4, S3, S2, S1};
 	always @ (*) begin
-	 if(C_out4 == 1'b0) begin // carry out == 0
+	 if(C_out4) begin // carry out == 0
 		//result_temp = { 1'b0, 1'b1, 1'b0,1'b1, S4, S3, S2, S1};
 		result_temp = { 1'b0, 1'b1, 1'b0,1'b1, S4, S3, S2, S1};
+		if(Gl_subtract)begin
+			result_temp = { 1'b0, 1'b0, 1'b1, 1'b1, S4, S3, S2, S1};
+		end
 		/*if(Gl_subtract == 1'b1) begin
 		   neg = ~result_temp;
 			result_temp[0] = neg[0];
@@ -119,7 +122,9 @@ module Lab2_140L (
 	//	led_temp = { 1'b0, 1'b0, 1'b0, C_out4, S4, S3, S2, S1};
 	 end else begin
 		result_temp = { 1'b0, 1'b0, 1'b1, 1'b1, S4, S3, S2, S1};
-		
+		if(Gl_subtract)begin
+			result_temp = { 1'b0, 1'b1, 1'b0, 1'b1, S4, S3, S2, S1};
+		end
 		//led_temp = { 1'b0, 1'b0, 1'b0, C_out4, S4, S3, S2, S1};
 	 end
 	 
