@@ -1,0 +1,12 @@
+
+fsm_encoding {716631661} sequential
+
+fsm_state_encoding {716631661} IDLE {00}
+
+fsm_state_encoding {716631661} GOTR1 {01}
+
+fsm_state_encoding {716631661} GOTR2 {10}
+
+fsm_state_encoding {716631661} DOOP {11}
+
+fsm_registers {716631661} {state[1]}  {state[0]} 

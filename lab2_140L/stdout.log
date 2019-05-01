@@ -1,0 +1,78 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\iCEcube2.2017.08\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\iCEcube2.2017.08\synpbase
+Hostname:    WIN-OH3KL3Q953N
+Date:        Wed May 01 17:38:54 2019
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch lab2_140L_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\ICECUBE\lab2_140L\lab2_140L_Implmnt\lab2_140L.srr"
+Running: lab2_140L_Implmnt in foreground
+
+Running lab2_140L_syn|lab2_140L_Implmnt
+
+Running: compile (Compile) on lab2_140L_syn|lab2_140L_Implmnt
+# Wed May 01 17:38:56 2019
+
+Running: compile_flow (Compile Process) on lab2_140L_syn|lab2_140L_Implmnt
+# Wed May 01 17:38:56 2019
+
+Running: compiler (Compile Input) on lab2_140L_syn|lab2_140L_Implmnt
+# Wed May 01 17:38:56 2019
+Copied C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\ICECUBE\lab2_140L\lab2_140L_Implmnt\synwork\lab2_140L_comp.srs to C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\ICECUBE\lab2_140L\lab2_140L_Implmnt\lab2_140L.srs
+
+compiler completed
+# Wed May 01 17:39:02 2019
+
+Return Code: 0
+Run Time:00h:00m:06s
+
+Running: multi_srs_gen (Multi-srs Generator) on lab2_140L_syn|lab2_140L_Implmnt
+# Wed May 01 17:39:03 2019
+
+multi_srs_gen completed
+# Wed May 01 17:39:06 2019
+
+Return Code: 0
+Run Time:00h:00m:03s
+Copied C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\ICECUBE\lab2_140L\lab2_140L_Implmnt\synwork\lab2_140L_mult.srs to C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\ICECUBE\lab2_140L\lab2_140L_Implmnt\lab2_140L.srs
+Complete: Compile Process on lab2_140L_syn|lab2_140L_Implmnt
+
+Running: premap (Pre-mapping) on lab2_140L_syn|lab2_140L_Implmnt
+# Wed May 01 17:39:06 2019
+
+premap completed
+# Wed May 01 17:39:12 2019
+
+Return Code: 0
+Run Time:00h:00m:06s
+Complete: Compile on lab2_140L_syn|lab2_140L_Implmnt
+
+Running: map (Map) on lab2_140L_syn|lab2_140L_Implmnt
+# Wed May 01 17:39:12 2019
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on lab2_140L_syn|lab2_140L_Implmnt
+# Wed May 01 17:39:12 2019
+Copied C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\ICECUBE\lab2_140L\lab2_140L_Implmnt\synwork\lab2_140L_m.srm to C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\ICECUBE\lab2_140L\lab2_140L_Implmnt\lab2_140L.srm
+
+fpga_mapper completed with warnings
+# Wed May 01 17:39:22 2019
+
+Return Code: 1
+Run Time:00h:00m:10s
+Complete: Map on lab2_140L_syn|lab2_140L_Implmnt
+Complete: Logic Synthesis on lab2_140L_syn|lab2_140L_Implmnt
+
+exit status=0
+
+exit status=0
+

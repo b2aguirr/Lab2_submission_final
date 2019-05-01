@@ -1,0 +1,14 @@
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\ICECUBE\lab2_140L\lab2_140L_Implmnt\synwork\lab2_140L_comp.srs changed - recompiling
+@N: NF107 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":342:7:342:17|Selected library: work cell: latticehx1k view verilog as top level
+@N: NF107 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":342:7:342:17|Selected library: work cell: latticehx1k view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed May 01 17:39:05 2019
+
+###########################################################]

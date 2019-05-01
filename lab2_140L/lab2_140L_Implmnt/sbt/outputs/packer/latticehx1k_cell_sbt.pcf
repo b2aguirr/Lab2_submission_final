@@ -1,0 +1,304 @@
+ble_pack buart.Z_rx.hh_1_LC_5_10_1 { buart.Z_rx.hh_1_THRU_LUT4_0, buart.Z_rx.hh[1] }
+ble_pack buart.Z_rx.hh_0_LC_5_10_6 { buart.Z_rx.hh_0_THRU_LUT4_0, buart.Z_rx.hh[0] }
+clb_pack LT_5_10 { buart.Z_rx.hh_1_LC_5_10_1, buart.Z_rx.hh_0_LC_5_10_6 }
+set_location LT_5_10 5 10
+ble_pack buart.Z_tx.uart_tx_LC_6_10_6 { buart.Z_tx.uart_tx_RNO, buart.Z_tx.uart_tx }
+clb_pack LT_6_10 { buart.Z_tx.uart_tx_LC_6_10_6 }
+set_location LT_6_10 6 10
+ble_pack Glue_Lab2.reset_count_cry_c_0_LC_6_11_0 { Glue_Lab2.reset_count_cry_c[0] }
+ble_pack Glue_Lab2.reset_count_cry_0_THRU_LUT4_0_LC_6_11_1 { Glue_Lab2.reset_count_cry_0_THRU_LUT4_0, Glue_Lab2.reset_count_cry_c[1] }
+ble_pack Glue_Lab2.reset_count_cry_1_THRU_LUT4_0_LC_6_11_2 { Glue_Lab2.reset_count_cry_1_THRU_LUT4_0, Glue_Lab2.reset_count_cry_c[2] }
+ble_pack Glue_Lab2.reset_count_cry_2_THRU_LUT4_0_LC_6_11_3 { Glue_Lab2.reset_count_cry_2_THRU_LUT4_0, Glue_Lab2.reset_count_cry_c[3] }
+ble_pack Glue_Lab2.reset_count_4_LC_6_11_4 { Glue_Lab2.reset_count_RNO[4], Glue_Lab2.reset_count[4] }
+ble_pack buart.Z_rx.Z_baudgen.counter_0_LC_6_11_5 { buart.Z_rx.Z_baudgen.counter_RNO[0], buart.Z_rx.Z_baudgen.counter[0] }
+clb_pack LT_6_11 { Glue_Lab2.reset_count_cry_c_0_LC_6_11_0, Glue_Lab2.reset_count_cry_0_THRU_LUT4_0_LC_6_11_1, Glue_Lab2.reset_count_cry_1_THRU_LUT4_0_LC_6_11_2, Glue_Lab2.reset_count_cry_2_THRU_LUT4_0_LC_6_11_3, Glue_Lab2.reset_count_4_LC_6_11_4, buart.Z_rx.Z_baudgen.counter_0_LC_6_11_5 }
+set_location LT_6_11 6 11
+ble_pack CONSTANT_ONE_LUT4_LC_7_8_6 { CONSTANT_ONE_LUT4 }
+clb_pack LT_7_8 { CONSTANT_ONE_LUT4_LC_7_8_6 }
+set_location LT_7_8 7 8
+ble_pack Glue_Lab2.reset_count_2_LC_7_9_1 { Glue_Lab2.reset_count_RNO[2], Glue_Lab2.reset_count[2] }
+clb_pack LT_7_9 { Glue_Lab2.reset_count_2_LC_7_9_1 }
+set_location LT_7_9 7 9
+ble_pack buart.Z_tx.shifter_1_LC_7_10_0 { buart.Z_tx.shifter_RNO[1], buart.Z_tx.shifter[1] }
+ble_pack buart.Z_tx.shifter_0_LC_7_10_1 { buart.Z_tx.shifter_RNO[0], buart.Z_tx.shifter[0] }
+ble_pack buart.Z_tx.shifter_7_LC_7_10_2 { buart.Z_tx.shifter_RNO[7], buart.Z_tx.shifter[7] }
+ble_pack buart.Z_tx.shifter_2_LC_7_10_3 { buart.Z_tx.shifter_RNO[2], buart.Z_tx.shifter[2] }
+ble_pack buart.Z_tx.shifter_3_LC_7_10_4 { buart.Z_tx.shifter_RNO[3], buart.Z_tx.shifter[3] }
+ble_pack buart.Z_tx.shifter_4_LC_7_10_5 { buart.Z_tx.shifter_RNO[4], buart.Z_tx.shifter[4] }
+ble_pack buart.Z_tx.shifter_5_LC_7_10_6 { buart.Z_tx.shifter_RNO[5], buart.Z_tx.shifter[5] }
+ble_pack buart.Z_tx.shifter_6_LC_7_10_7 { buart.Z_tx.shifter_RNO[6], buart.Z_tx.shifter[6] }
+clb_pack LT_7_10 { buart.Z_tx.shifter_1_LC_7_10_0, buart.Z_tx.shifter_0_LC_7_10_1, buart.Z_tx.shifter_7_LC_7_10_2, buart.Z_tx.shifter_2_LC_7_10_3, buart.Z_tx.shifter_3_LC_7_10_4, buart.Z_tx.shifter_4_LC_7_10_5, buart.Z_tx.shifter_5_LC_7_10_6, buart.Z_tx.shifter_6_LC_7_10_7 }
+set_location LT_7_10 7 10
+ble_pack Glue_Lab2.reset_count_3_LC_7_11_0 { Glue_Lab2.reset_count_RNO[3], Glue_Lab2.reset_count[3] }
+ble_pack Glue_Lab2.reset_count_1_LC_7_11_1 { Glue_Lab2.reset_count_RNO[1], Glue_Lab2.reset_count[1] }
+ble_pack buart.Z_rx.Z_baudgen.counter_RNO_0_5_LC_7_11_2 { buart.Z_rx.Z_baudgen.counter_RNO_0[5] }
+ble_pack buart.Z_rx.Z_baudgen.counter_5_LC_7_11_3 { buart.Z_rx.Z_baudgen.counter_RNO[5], buart.Z_rx.Z_baudgen.counter[5] }
+ble_pack buart.Z_rx.Z_baudgen.counter_RNO_1_5_LC_7_11_4 { buart.Z_rx.Z_baudgen.counter_RNO_1[5] }
+ble_pack buart.Z_rx.Z_baudgen.counter_RNIT3N1_1_LC_7_11_5 { buart.Z_rx.Z_baudgen.counter_RNIT3N1[1] }
+ble_pack buart.Z_rx.Z_baudgen.counter_RNO_0_4_LC_7_11_6 { buart.Z_rx.Z_baudgen.counter_RNO_0[4] }
+ble_pack Glue_Lab2.reset_count_0_LC_7_11_7 { Glue_Lab2.reset_count_RNO[0], Glue_Lab2.reset_count[0] }
+clb_pack LT_7_11 { Glue_Lab2.reset_count_3_LC_7_11_0, Glue_Lab2.reset_count_1_LC_7_11_1, buart.Z_rx.Z_baudgen.counter_RNO_0_5_LC_7_11_2, buart.Z_rx.Z_baudgen.counter_5_LC_7_11_3, buart.Z_rx.Z_baudgen.counter_RNO_1_5_LC_7_11_4, buart.Z_rx.Z_baudgen.counter_RNIT3N1_1_LC_7_11_5, buart.Z_rx.Z_baudgen.counter_RNO_0_4_LC_7_11_6, Glue_Lab2.reset_count_0_LC_7_11_7 }
+set_location LT_7_11 7 11
+ble_pack Lab_UT.sDelay.delayReg_1_LC_7_12_1 { Lab_UT.sDelay.delayReg_RNO[1], Lab_UT.sDelay.delayReg[1] }
+ble_pack buart.Z_rx.Z_baudgen.counter_4_LC_7_12_2 { buart.Z_rx.Z_baudgen.counter_RNO[4], buart.Z_rx.Z_baudgen.counter[4] }
+ble_pack buart.Z_rx.Z_baudgen.counter_3_LC_7_12_3 { buart.Z_rx.Z_baudgen.counter_RNO[3], buart.Z_rx.Z_baudgen.counter[3] }
+ble_pack Lab_UT.sDelay.delayReg_0_LC_7_12_4 { Lab_UT.sDelay.delayReg_RNO[0], Lab_UT.sDelay.delayReg[0] }
+ble_pack Glue_Lab2.Gl_tx_data_0_LC_7_12_5 { Glue_Lab2.Gl_tx_data_RNO[0], Glue_Lab2.Gl_tx_data[0] }
+ble_pack Glue_Lab2.Gl_rst_LC_7_12_7 { Glue_Lab2.Gl_rst_RNO, Glue_Lab2.Gl_rst }
+clb_pack LT_7_12 { Lab_UT.sDelay.delayReg_1_LC_7_12_1, buart.Z_rx.Z_baudgen.counter_4_LC_7_12_2, buart.Z_rx.Z_baudgen.counter_3_LC_7_12_3, Lab_UT.sDelay.delayReg_0_LC_7_12_4, Glue_Lab2.Gl_tx_data_0_LC_7_12_5, Glue_Lab2.Gl_rst_LC_7_12_7 }
+set_location LT_7_12 7 12
+ble_pack Lab_UT.S_m_bm_3_LC_7_13_0 { Lab_UT.S_m_bm[3] }
+ble_pack Lab_UT.S_m_ns_3_LC_7_13_1 { Lab_UT.S_m_ns[3] }
+ble_pack Glue_Lab2.Gl_tx_data_3_LC_7_13_2 { Glue_Lab2.Gl_tx_data_RNO[3], Glue_Lab2.Gl_tx_data[3] }
+ble_pack Lab_UT.S_m_bm_N_3L3_LC_7_13_3 { Lab_UT.S_m_bm_N_3L3 }
+ble_pack Lab_UT.g0_0_a3_0_1_LC_7_13_4 { Lab_UT.g0_0_a3_0_1 }
+ble_pack Lab_UT.g0_1_LC_7_13_5 { Lab_UT.g0_1 }
+ble_pack Glue_Lab2.Gl_tx_data_5_LC_7_13_6 { Glue_Lab2.Gl_tx_data_RNO[5], Glue_Lab2.Gl_tx_data[5] }
+ble_pack Lab_UT.g0_0_a3_LC_7_13_7 { Lab_UT.g0_0_a3 }
+clb_pack LT_7_13 { Lab_UT.S_m_bm_3_LC_7_13_0, Lab_UT.S_m_ns_3_LC_7_13_1, Glue_Lab2.Gl_tx_data_3_LC_7_13_2, Lab_UT.S_m_bm_N_3L3_LC_7_13_3, Lab_UT.g0_0_a3_0_1_LC_7_13_4, Lab_UT.g0_1_LC_7_13_5, Glue_Lab2.Gl_tx_data_5_LC_7_13_6, Lab_UT.g0_0_a3_LC_7_13_7 }
+set_location LT_7_13 7 13
+ble_pack Glue_Lab2.Gl_r1_1_LC_7_14_1 { Glue_Lab2.Gl_rst_RNI7BQG_Glue_Lab2.Gl_r1_1_REP_LUT4_0, Glue_Lab2.Gl_r1[1] }
+ble_pack Lab_UT.g0_0_a3_0_0_LC_7_14_2 { Lab_UT.g0_0_a3_0_0 }
+ble_pack Lab_UT.g0_0_LC_7_14_3 { Lab_UT.g0_0 }
+ble_pack Lab_UT.g0_1_0_LC_7_14_4 { Lab_UT.g0_1_0 }
+ble_pack Lab_UT.g0_0_a3_0_LC_7_14_5 { Lab_UT.g0_0_a3_0 }
+ble_pack Glue_Lab2.Gl_r1_3_LC_7_14_6 { Glue_Lab2.Gl_rst_RNI9DQG_Glue_Lab2.Gl_r1_3_REP_LUT4_0, Glue_Lab2.Gl_r1[3] }
+ble_pack Lab_UT.g0_3_LC_7_14_7 { Lab_UT.g0_3 }
+clb_pack LT_7_14 { Glue_Lab2.Gl_r1_1_LC_7_14_1, Lab_UT.g0_0_a3_0_0_LC_7_14_2, Lab_UT.g0_0_LC_7_14_3, Lab_UT.g0_1_0_LC_7_14_4, Lab_UT.g0_0_a3_0_LC_7_14_5, Glue_Lab2.Gl_r1_3_LC_7_14_6, Lab_UT.g0_3_LC_7_14_7 }
+set_location LT_7_14 7 14
+ble_pack Lab_UT.S_0_s_axb3_LC_7_15_0 { Lab_UT.S_0_s_axb3 }
+ble_pack Lab_UT.S_m_am_3_LC_7_15_1 { Lab_UT.S_m_am[3] }
+ble_pack Lab_UT.g1_2_LC_7_15_2 { Lab_UT.g1_2 }
+ble_pack Glue_Lab2.gl_fsm.state_RNITO9T5_0_LC_7_15_3 { Glue_Lab2.gl_fsm.state_RNITO9T5[0] }
+ble_pack Lab_UT.g0_4_1_LC_7_15_4 { Lab_UT.g0_4_1 }
+ble_pack Lab_UT.S_m_bm_N_6L10_LC_7_15_5 { Lab_UT.S_m_bm_N_6L10 }
+ble_pack Glue_Lab2.gl_fsm.state_RNITO9T5_0_0_LC_7_15_6 { Glue_Lab2.gl_fsm.state_RNITO9T5_0[0] }
+ble_pack Lab_UT.S_0_s_c2_LC_7_15_7 { Lab_UT.S_0_s_c2 }
+clb_pack LT_7_15 { Lab_UT.S_0_s_axb3_LC_7_15_0, Lab_UT.S_m_am_3_LC_7_15_1, Lab_UT.g1_2_LC_7_15_2, Glue_Lab2.gl_fsm.state_RNITO9T5_0_LC_7_15_3, Lab_UT.g0_4_1_LC_7_15_4, Lab_UT.S_m_bm_N_6L10_LC_7_15_5, Glue_Lab2.gl_fsm.state_RNITO9T5_0_0_LC_7_15_6, Lab_UT.S_0_s_c2_LC_7_15_7 }
+set_location LT_7_15 7 15
+ble_pack Glue_Lab2.Gl_r2_fast_0_LC_7_16_0 { Glue_Lab2.Gl_rst_RNI6AQG, Glue_Lab2.Gl_r2_fast[0] }
+ble_pack Glue_Lab2.Gl_r2_fast_2_LC_7_16_1 { Glue_Lab2.Gl_rst_RNI8CQG_Glue_Lab2.Gl_r2_fast_2_REP_LUT4_0, Glue_Lab2.Gl_r2_fast[2] }
+ble_pack Glue_Lab2.Gl_r2_2_rep1_LC_7_16_2 { Glue_Lab2.Gl_rst_RNI8CQG_Glue_Lab2.Gl_r2_2_rep1_REP_LUT4_0, Glue_Lab2.Gl_r2_2_rep1 }
+ble_pack Glue_Lab2.Gl_r2_3_LC_7_16_3 { Glue_Lab2.Gl_rst_RNI9DQG, Glue_Lab2.Gl_r2[3] }
+ble_pack Glue_Lab2.Gl_r2_0_LC_7_16_5 { Glue_Lab2.Gl_rst_RNI6AQG_Glue_Lab2.Gl_r2_0_REP_LUT4_0, Glue_Lab2.Gl_r2[0] }
+clb_pack LT_7_16 { Glue_Lab2.Gl_r2_fast_0_LC_7_16_0, Glue_Lab2.Gl_r2_fast_2_LC_7_16_1, Glue_Lab2.Gl_r2_2_rep1_LC_7_16_2, Glue_Lab2.Gl_r2_3_LC_7_16_3, Glue_Lab2.Gl_r2_0_LC_7_16_5 }
+set_location LT_7_16 7 16
+ble_pack Glue_Lab2.de0.g0_LC_8_9_0 { Glue_Lab2.de0.g0 }
+ble_pack Glue_Lab2.reset_count_RNO_0_2_LC_8_9_1 { Glue_Lab2.reset_count_RNO_0[2] }
+ble_pack Glue_Lab2.de0.g0_4_LC_8_9_3 { Glue_Lab2.de0.g0_4 }
+ble_pack Glue_Lab2.de0.g0_0_LC_8_9_5 { Glue_Lab2.de0.g0_0 }
+ble_pack Glue_Lab2.de0.g0_12_LC_8_9_6 { Glue_Lab2.de0.g0_12 }
+clb_pack LT_8_9 { Glue_Lab2.de0.g0_LC_8_9_0, Glue_Lab2.reset_count_RNO_0_2_LC_8_9_1, Glue_Lab2.de0.g0_4_LC_8_9_3, Glue_Lab2.de0.g0_0_LC_8_9_5, Glue_Lab2.de0.g0_12_LC_8_9_6 }
+set_location LT_8_9 8 9
+ble_pack buart.Z_rx.bitcount_4_LC_8_10_1 { buart.Z_rx.bitcount_RNO[4], buart.Z_rx.bitcount[4] }
+ble_pack buart.Z_rx.bitcount_RNILM873_0_LC_8_10_2 { buart.Z_rx.bitcount_RNILM873[0] }
+ble_pack buart.Z_rx.bitcount_0_LC_8_10_3 { buart.Z_rx.bitcount_RNO[0], buart.Z_rx.bitcount[0] }
+ble_pack buart.Z_rx.bitcount_RNIIU223_0_LC_8_10_4 { buart.Z_rx.bitcount_RNIIU223[0] }
+ble_pack buart.Z_rx.bitcount_RNO_0_0_LC_8_10_5 { buart.Z_rx.bitcount_RNO_0[0] }
+ble_pack Glue_Lab2.de0.g0_2_LC_8_10_6 { Glue_Lab2.de0.g0_2 }
+ble_pack buart.Z_rx.Z_baudgen.counter_1_LC_8_10_7 { buart.Z_rx.Z_baudgen.counter_RNO[1], buart.Z_rx.Z_baudgen.counter[1] }
+clb_pack LT_8_10 { buart.Z_rx.bitcount_4_LC_8_10_1, buart.Z_rx.bitcount_RNILM873_0_LC_8_10_2, buart.Z_rx.bitcount_0_LC_8_10_3, buart.Z_rx.bitcount_RNIIU223_0_LC_8_10_4, buart.Z_rx.bitcount_RNO_0_0_LC_8_10_5, Glue_Lab2.de0.g0_2_LC_8_10_6, buart.Z_rx.Z_baudgen.counter_1_LC_8_10_7 }
+set_location LT_8_10 8 10
+ble_pack buart.Z_rx.bitcount_RNIMK771_1_4_LC_8_11_0 { buart.Z_rx.bitcount_RNIMK771_1[4] }
+ble_pack Glue_Lab2.de0.g0_7_LC_8_11_1 { Glue_Lab2.de0.g0_7 }
+ble_pack Glue_Lab2.de0.g0_14_LC_8_11_2 { Glue_Lab2.de0.g0_14 }
+ble_pack Glue_Lab2.de0.g0_11_LC_8_11_3 { Glue_Lab2.de0.g0_11 }
+ble_pack Glue_Lab2.reset_count_RNO_0_0_LC_8_11_4 { Glue_Lab2.reset_count_RNO_0[0] }
+ble_pack buart.Z_rx.bitcount_RNIMK771_0_4_LC_8_11_5 { buart.Z_rx.bitcount_RNIMK771_0[4] }
+ble_pack buart.Z_rx.bitcount_RNI9F1H1_0_LC_8_11_6 { buart.Z_rx.bitcount_RNI9F1H1[0] }
+ble_pack Glue_Lab2.de0.de_esc_LC_8_11_7 { Glue_Lab2.de0.de_esc }
+clb_pack LT_8_11 { buart.Z_rx.bitcount_RNIMK771_1_4_LC_8_11_0, Glue_Lab2.de0.g0_7_LC_8_11_1, Glue_Lab2.de0.g0_14_LC_8_11_2, Glue_Lab2.de0.g0_11_LC_8_11_3, Glue_Lab2.reset_count_RNO_0_0_LC_8_11_4, buart.Z_rx.bitcount_RNIMK771_0_4_LC_8_11_5, buart.Z_rx.bitcount_RNI9F1H1_0_LC_8_11_6, Glue_Lab2.de0.de_esc_LC_8_11_7 }
+set_location LT_8_11 8 11
+ble_pack buart.Z_rx.Z_baudgen.counter_RNI6KE3_5_LC_8_12_0 { buart.Z_rx.Z_baudgen.counter_RNI6KE3[5] }
+ble_pack buart.Z_rx.bitcount_RNIC77M1_0_LC_8_12_1 { buart.Z_rx.bitcount_RNIC77M1[0] }
+ble_pack Glue_Lab2.de0.un2_de_hexplus_3_x0_LC_8_12_2 { Glue_Lab2.de0.un2_de_hexplus_3_x0 }
+ble_pack Glue_Lab2.de0.un2_de_hexplus_3_ns_LC_8_12_3 { Glue_Lab2.de0.un2_de_hexplus_3_ns }
+ble_pack Glue_Lab2.de0.de_hexplus_LC_8_12_4 { Glue_Lab2.de0.de_hexplus }
+ble_pack Glue_Lab2.Gl_tx_data_4_LC_8_12_5 { Glue_Lab2.Gl_tx_data_RNO[4], Glue_Lab2.Gl_tx_data[4] }
+ble_pack buart.Z_rx.Z_baudgen.counter_2_LC_8_12_6 { buart.Z_rx.Z_baudgen.counter_RNO[2], buart.Z_rx.Z_baudgen.counter[2] }
+ble_pack Glue_Lab2.gl_fsm.state_RNIDFRT_0_LC_8_12_7 { Glue_Lab2.gl_fsm.state_RNIDFRT[0] }
+clb_pack LT_8_12 { buart.Z_rx.Z_baudgen.counter_RNI6KE3_5_LC_8_12_0, buart.Z_rx.bitcount_RNIC77M1_0_LC_8_12_1, Glue_Lab2.de0.un2_de_hexplus_3_x0_LC_8_12_2, Glue_Lab2.de0.un2_de_hexplus_3_ns_LC_8_12_3, Glue_Lab2.de0.de_hexplus_LC_8_12_4, Glue_Lab2.Gl_tx_data_4_LC_8_12_5, buart.Z_rx.Z_baudgen.counter_2_LC_8_12_6, Glue_Lab2.gl_fsm.state_RNIDFRT_0_LC_8_12_7 }
+set_location LT_8_12 8 12
+ble_pack Glue_Lab2.gl_fsm.state_1_LC_8_13_0 { Glue_Lab2.gl_fsm.state_RNO[1], Glue_Lab2.gl_fsm.state[1] }
+ble_pack Glue_Lab2.gl_fsm.state_ns_1_0__m1_LC_8_13_1 { Glue_Lab2.gl_fsm.state_ns_1_0_.m1 }
+ble_pack Glue_Lab2.gl_fsm.state_0_LC_8_13_2 { Glue_Lab2.gl_fsm.state_RNO[0], Glue_Lab2.gl_fsm.state[0] }
+ble_pack Lab_UT.g0_LC_8_13_3 { Lab_UT.g0 }
+ble_pack Glue_Lab2.Gl_tx_data_6_LC_8_13_4 { Glue_Lab2.Gl_tx_data_RNO[6], Glue_Lab2.Gl_tx_data[6] }
+ble_pack Lab_UT.S_m_bm_N_2L1_LC_8_13_6 { Lab_UT.S_m_bm_N_2L1 }
+ble_pack Lab_UT.S_m_0_LC_8_13_7 { Lab_UT.S_m[0] }
+clb_pack LT_8_13 { Glue_Lab2.gl_fsm.state_1_LC_8_13_0, Glue_Lab2.gl_fsm.state_ns_1_0__m1_LC_8_13_1, Glue_Lab2.gl_fsm.state_0_LC_8_13_2, Lab_UT.g0_LC_8_13_3, Glue_Lab2.Gl_tx_data_6_LC_8_13_4, Lab_UT.S_m_bm_N_2L1_LC_8_13_6, Lab_UT.S_m_0_LC_8_13_7 }
+set_location LT_8_13 8 13
+ble_pack Lab_UT.S_1_ac0_1_0_0_LC_8_14_0 { Lab_UT.S_1_ac0_1_0_0 }
+ble_pack Lab_UT.S_1_axb1_LC_8_14_1 { Lab_UT.S_1_axb1 }
+ble_pack Lab_UT.S_1_ac0_1_0_LC_8_14_2 { Lab_UT.S_1_ac0_1_0 }
+ble_pack Lab_UT.S_m_am_1_LC_8_14_3 { Lab_UT.S_m_am[1] }
+ble_pack Glue_Lab2.Gl_r1_0_LC_8_14_4 { Glue_Lab2.Gl_rst_RNI6AQG_Glue_Lab2.Gl_r1_0_REP_LUT4_0, Glue_Lab2.Gl_r1[0] }
+ble_pack Lab_UT.g1_0_LC_8_14_5 { Lab_UT.g1_0 }
+ble_pack Lab_UT.g0_7_LC_8_14_6 { Lab_UT.g0_7 }
+ble_pack Lab_UT.g1_LC_8_14_7 { Lab_UT.g1 }
+clb_pack LT_8_14 { Lab_UT.S_1_ac0_1_0_0_LC_8_14_0, Lab_UT.S_1_axb1_LC_8_14_1, Lab_UT.S_1_ac0_1_0_LC_8_14_2, Lab_UT.S_m_am_1_LC_8_14_3, Glue_Lab2.Gl_r1_0_LC_8_14_4, Lab_UT.g1_0_LC_8_14_5, Lab_UT.g0_7_LC_8_14_6, Lab_UT.g1_LC_8_14_7 }
+set_location LT_8_14 8 14
+ble_pack Lab_UT.S_m_bm_1_2_LC_8_15_0 { Lab_UT.S_m_bm_1[2] }
+ble_pack Glue_Lab2.Gl_r1_fast_0_LC_8_15_1 { Glue_Lab2.Gl_rst_RNI6AQG_Glue_Lab2.Gl_r1_fast_0_REP_LUT4_0, Glue_Lab2.Gl_r1_fast[0] }
+ble_pack Glue_Lab2.Gl_r1_fast_2_LC_8_15_2 { Glue_Lab2.Gl_rst_RNI8CQG_Glue_Lab2.Gl_r1_fast_2_REP_LUT4_0, Glue_Lab2.Gl_r1_fast[2] }
+ble_pack Lab_UT.S_m_bm_N_5L7_LC_8_15_3 { Lab_UT.S_m_bm_N_5L7 }
+ble_pack Glue_Lab2.Gl_r1_2_rep1_LC_8_15_4 { Glue_Lab2.Gl_rst_RNI8CQG_Glue_Lab2.Gl_r1_2_rep1_REP_LUT4_0, Glue_Lab2.Gl_r1_2_rep1 }
+ble_pack Lab_UT.g0_4_0_LC_8_15_5 { Lab_UT.g0_4_0 }
+ble_pack Glue_Lab2.Gl_r1_2_LC_8_15_6 { Glue_Lab2.Gl_rst_RNI8CQG_Glue_Lab2.Gl_r1_2_REP_LUT4_0, Glue_Lab2.Gl_r1[2] }
+ble_pack Lab_UT.g0_4_LC_8_15_7 { Lab_UT.g0_4 }
+clb_pack LT_8_15 { Lab_UT.S_m_bm_1_2_LC_8_15_0, Glue_Lab2.Gl_r1_fast_0_LC_8_15_1, Glue_Lab2.Gl_r1_fast_2_LC_8_15_2, Lab_UT.S_m_bm_N_5L7_LC_8_15_3, Glue_Lab2.Gl_r1_2_rep1_LC_8_15_4, Lab_UT.g0_4_0_LC_8_15_5, Glue_Lab2.Gl_r1_2_LC_8_15_6, Lab_UT.g0_4_LC_8_15_7 }
+set_location LT_8_15 8 15
+ble_pack Lab_UT.g0_1_1_LC_8_16_0 { Lab_UT.g0_1_1 }
+ble_pack Glue_Lab2.Gl_r2_1_LC_8_16_1 { Glue_Lab2.Gl_rst_RNI7BQG_Glue_Lab2.Gl_r2_1_REP_LUT4_0, Glue_Lab2.Gl_r2[1] }
+ble_pack Glue_Lab2.Gl_r2_2_LC_8_16_2 { Glue_Lab2.Gl_rst_RNI8CQG_Glue_Lab2.Gl_r2_2_REP_LUT4_0, Glue_Lab2.Gl_r2[2] }
+ble_pack Lab_UT.g0_2_LC_8_16_3 { Lab_UT.g0_2 }
+ble_pack Lab_UT.g1_1_LC_8_16_4 { Lab_UT.g1_1 }
+clb_pack LT_8_16 { Lab_UT.g0_1_1_LC_8_16_0, Glue_Lab2.Gl_r2_1_LC_8_16_1, Glue_Lab2.Gl_r2_2_LC_8_16_2, Lab_UT.g0_2_LC_8_16_3, Lab_UT.g1_1_LC_8_16_4 }
+set_location LT_8_16 8 16
+ble_pack buart.Z_rx.bitcount_cry_c_0_LC_9_9_0 { buart.Z_rx.bitcount_cry_c[0] }
+ble_pack buart.Z_rx.bitcount_cry_0_THRU_LUT4_0_LC_9_9_1 { buart.Z_rx.bitcount_cry_0_THRU_LUT4_0, buart.Z_rx.bitcount_cry_c[1] }
+ble_pack buart.Z_rx.bitcount_cry_1_THRU_LUT4_0_LC_9_9_2 { buart.Z_rx.bitcount_cry_1_THRU_LUT4_0, buart.Z_rx.bitcount_cry_c[2] }
+ble_pack buart.Z_rx.bitcount_cry_2_THRU_LUT4_0_LC_9_9_3 { buart.Z_rx.bitcount_cry_2_THRU_LUT4_0, buart.Z_rx.bitcount_cry_c[3] }
+ble_pack buart.Z_rx.bitcount_RNO_0_4_LC_9_9_4 { buart.Z_rx.bitcount_RNO_0[4] }
+ble_pack buart.Z_rx.bitcount_RNO_0_1_LC_9_9_7 { buart.Z_rx.bitcount_RNO_0[1] }
+clb_pack LT_9_9 { buart.Z_rx.bitcount_cry_c_0_LC_9_9_0, buart.Z_rx.bitcount_cry_0_THRU_LUT4_0_LC_9_9_1, buart.Z_rx.bitcount_cry_1_THRU_LUT4_0_LC_9_9_2, buart.Z_rx.bitcount_cry_2_THRU_LUT4_0_LC_9_9_3, buart.Z_rx.bitcount_RNO_0_4_LC_9_9_4, buart.Z_rx.bitcount_RNO_0_1_LC_9_9_7 }
+set_location LT_9_9 9 9
+ble_pack buart.Z_rx.bitcount_RNO_0_3_LC_9_10_0 { buart.Z_rx.bitcount_RNO_0[3] }
+ble_pack buart.Z_rx.bitcount_3_LC_9_10_1 { buart.Z_rx.bitcount_RNO[3], buart.Z_rx.bitcount[3] }
+ble_pack buart.Z_rx.bitcount_RNIMK771_4_LC_9_10_2 { buart.Z_rx.bitcount_RNIMK771[4] }
+ble_pack buart.Z_rx.bitcount_RNI9F1H1_0_0_LC_9_10_3 { buart.Z_rx.bitcount_RNI9F1H1_0[0] }
+ble_pack buart.Z_rx.hh_RNI065O1_0_LC_9_10_4 { buart.Z_rx.hh_RNI065O1[0] }
+ble_pack buart.Z_rx.bitcount_1_LC_9_10_5 { buart.Z_rx.bitcount_RNO[1], buart.Z_rx.bitcount[1] }
+ble_pack buart.Z_rx.bitcount_RNO_0_2_LC_9_10_6 { buart.Z_rx.bitcount_RNO_0[2] }
+ble_pack buart.Z_rx.bitcount_2_LC_9_10_7 { buart.Z_rx.bitcount_RNO[2], buart.Z_rx.bitcount[2] }
+clb_pack LT_9_10 { buart.Z_rx.bitcount_RNO_0_3_LC_9_10_0, buart.Z_rx.bitcount_3_LC_9_10_1, buart.Z_rx.bitcount_RNIMK771_4_LC_9_10_2, buart.Z_rx.bitcount_RNI9F1H1_0_0_LC_9_10_3, buart.Z_rx.hh_RNI065O1_0_LC_9_10_4, buart.Z_rx.bitcount_1_LC_9_10_5, buart.Z_rx.bitcount_RNO_0_2_LC_9_10_6, buart.Z_rx.bitcount_2_LC_9_10_7 }
+set_location LT_9_10 9 10
+ble_pack Glue_Lab2.de0.g0_13_LC_9_11_0 { Glue_Lab2.de0.g0_13 }
+ble_pack buart.Z_rx.shifter_3_LC_9_11_1 { buart.Z_rx.shifter_3_THRU_LUT4_0, buart.Z_rx.shifter[3] }
+ble_pack Glue_Lab2.de0.un2_de_hexplus_2_LC_9_11_2 { Glue_Lab2.de0.un2_de_hexplus_2 }
+ble_pack buart.Z_rx.shifter_6_LC_9_11_3 { buart.Z_rx.shifter_6_THRU_LUT4_0, buart.Z_rx.shifter[6] }
+ble_pack Glue_Lab2.de0.un1_charData_LC_9_11_4 { Glue_Lab2.de0.un1_charData }
+ble_pack buart.Z_rx.shifter_fast_5_LC_9_11_5 { buart.Z_rx.shifter_fast_5_THRU_LUT4_0, buart.Z_rx.shifter_fast[5] }
+ble_pack buart.Z_rx.shifter_7_LC_9_11_6 { buart.Z_rx.shifter_7_THRU_LUT4_0, buart.Z_rx.shifter[7] }
+ble_pack Glue_Lab2.gl_fsm.enOp_0_a2_4_LC_9_11_7 { Glue_Lab2.gl_fsm.enOp_0_a2_4 }
+clb_pack LT_9_11 { Glue_Lab2.de0.g0_13_LC_9_11_0, buart.Z_rx.shifter_3_LC_9_11_1, Glue_Lab2.de0.un2_de_hexplus_2_LC_9_11_2, buart.Z_rx.shifter_6_LC_9_11_3, Glue_Lab2.de0.un1_charData_LC_9_11_4, buart.Z_rx.shifter_fast_5_LC_9_11_5, buart.Z_rx.shifter_7_LC_9_11_6, Glue_Lab2.gl_fsm.enOp_0_a2_4_LC_9_11_7 }
+set_location LT_9_11 9 11
+ble_pack Glue_Lab2.de0.g0_1_LC_9_12_0 { Glue_Lab2.de0.g0_1 }
+ble_pack buart.Z_rx.shifter_1_LC_9_12_1 { buart.Z_rx.shifter_1_THRU_LUT4_0, buart.Z_rx.shifter[1] }
+ble_pack Glue_Lab2.de0.de_esc_3_LC_9_12_2 { Glue_Lab2.de0.de_esc_3 }
+ble_pack buart.Z_rx.shifter_0_LC_9_12_6 { buart.Z_rx.shifter_0_THRU_LUT4_0, buart.Z_rx.shifter[0] }
+ble_pack Glue_Lab2.gl_fsm.state_RNIQ3DV3_0_LC_9_12_7 { Glue_Lab2.gl_fsm.state_RNIQ3DV3[0] }
+clb_pack LT_9_12 { Glue_Lab2.de0.g0_1_LC_9_12_0, buart.Z_rx.shifter_1_LC_9_12_1, Glue_Lab2.de0.de_esc_3_LC_9_12_2, buart.Z_rx.shifter_0_LC_9_12_6, Glue_Lab2.gl_fsm.state_RNIQ3DV3_0_LC_9_12_7 }
+set_location LT_9_12 9 12
+ble_pack Glue_Lab2.Gl_rst_RNI7BQG_LC_9_13_0 { Glue_Lab2.Gl_rst_RNI7BQG }
+ble_pack Glue_Lab2.Gl_Op_1_LC_9_13_1 { Glue_Lab2.Gl_Op_RNO[1], Glue_Lab2.Gl_Op[1] }
+ble_pack Glue_Lab2.Gl_rst_RNI8CQG_LC_9_13_2 { Glue_Lab2.Gl_rst_RNI8CQG }
+ble_pack Glue_Lab2.Gl_Op_2_LC_9_13_3 { Glue_Lab2.Gl_Op_RNO[2], Glue_Lab2.Gl_Op[2] }
+ble_pack Glue_Lab2.Gl_Op_5_LC_9_13_4 { Glue_Lab2.Gl_Op_RNO[5], Glue_Lab2.Gl_Op[5] }
+ble_pack Lab_UT.g0_1_2_LC_9_13_5 { Lab_UT.g0_1_2 }
+ble_pack Glue_Lab2.Gl_Op_3_LC_9_13_6 { Glue_Lab2.Gl_Op_RNO[3], Glue_Lab2.Gl_Op[3] }
+ble_pack Glue_Lab2.Gl_Op_0_LC_9_13_7 { Glue_Lab2.Gl_Op_RNO[0], Glue_Lab2.Gl_Op[0] }
+clb_pack LT_9_13 { Glue_Lab2.Gl_rst_RNI7BQG_LC_9_13_0, Glue_Lab2.Gl_Op_1_LC_9_13_1, Glue_Lab2.Gl_rst_RNI8CQG_LC_9_13_2, Glue_Lab2.Gl_Op_2_LC_9_13_3, Glue_Lab2.Gl_Op_5_LC_9_13_4, Lab_UT.g0_1_2_LC_9_13_5, Glue_Lab2.Gl_Op_3_LC_9_13_6, Glue_Lab2.Gl_Op_0_LC_9_13_7 }
+set_location LT_9_13 9 13
+ble_pack Glue_Lab2.Gl_tx_data_2_LC_9_14_0 { Glue_Lab2.Gl_tx_data_RNO[2], Glue_Lab2.Gl_tx_data[2] }
+ble_pack Glue_Lab2.gl_fsm.state_RNIIM7B_1_LC_9_14_3 { Glue_Lab2.gl_fsm.state_RNIIM7B[1] }
+ble_pack Glue_Lab2.Gl_Op_RNIDA8P_2_LC_9_14_5 { Glue_Lab2.Gl_Op_RNIDA8P[2] }
+ble_pack Glue_Lab2.Gl_Op_RNIFO4V1_0_LC_9_14_6 { Glue_Lab2.Gl_Op_RNIFO4V1[0] }
+clb_pack LT_9_14 { Glue_Lab2.Gl_tx_data_2_LC_9_14_0, Glue_Lab2.gl_fsm.state_RNIIM7B_1_LC_9_14_3, Glue_Lab2.Gl_Op_RNIDA8P_2_LC_9_14_5, Glue_Lab2.Gl_Op_RNIFO4V1_0_LC_9_14_6 }
+set_location LT_9_14 9 14
+ble_pack Lab_UT.S_0_s_ac0_5_d_LC_9_15_0 { Lab_UT.S_0_s_ac0_5_d }
+ble_pack Lab_UT.S_m_am_2_LC_9_15_3 { Lab_UT.S_m_am[2] }
+ble_pack Lab_UT.S_m_ns_2_LC_9_15_4 { Lab_UT.S_m_ns[2] }
+ble_pack Lab_UT.S_m_bm_1_LC_9_15_5 { Lab_UT.S_m_bm[1] }
+ble_pack Lab_UT.S_m_ns_1_LC_9_15_6 { Lab_UT.S_m_ns[1] }
+ble_pack Glue_Lab2.Gl_tx_data_1_LC_9_15_7 { Glue_Lab2.Gl_tx_data_RNO[1], Glue_Lab2.Gl_tx_data[1] }
+clb_pack LT_9_15 { Lab_UT.S_0_s_ac0_5_d_LC_9_15_0, Lab_UT.S_m_am_2_LC_9_15_3, Lab_UT.S_m_ns_2_LC_9_15_4, Lab_UT.S_m_bm_1_LC_9_15_5, Lab_UT.S_m_ns_1_LC_9_15_6, Glue_Lab2.Gl_tx_data_1_LC_9_15_7 }
+set_location LT_9_15 9 15
+ble_pack Lab_UT.S_m_bm_2_LC_9_16_1 { Lab_UT.S_m_bm[2] }
+clb_pack LT_9_16 { Lab_UT.S_m_bm_2_LC_9_16_1 }
+set_location LT_9_16 9 16
+ble_pack buart.Z_tx.Z_baudgen.counter_RNI1O14_1_LC_11_7_0 { buart.Z_tx.Z_baudgen.counter_RNI1O14[1] }
+ble_pack buart.Z_tx.Z_baudgen.counter_0_LC_11_7_1 { buart.Z_tx.Z_baudgen.counter_RNO[0], buart.Z_tx.Z_baudgen.counter[0] }
+ble_pack buart.Z_tx.Z_baudgen.counter_1_LC_11_7_7 { buart.Z_tx.Z_baudgen.counter_RNO[1], buart.Z_tx.Z_baudgen.counter[1] }
+clb_pack LT_11_7 { buart.Z_tx.Z_baudgen.counter_RNI1O14_1_LC_11_7_0, buart.Z_tx.Z_baudgen.counter_0_LC_11_7_1, buart.Z_tx.Z_baudgen.counter_1_LC_11_7_7 }
+set_location LT_11_7 11 7
+ble_pack buart.Z_tx.Z_baudgen.counter_4_LC_11_8_0 { buart.Z_tx.Z_baudgen.counter_RNO[4], buart.Z_tx.Z_baudgen.counter[4] }
+ble_pack buart.Z_tx.Z_baudgen.counter_RNIQJ4A_4_LC_11_8_1 { buart.Z_tx.Z_baudgen.counter_RNIQJ4A[4] }
+ble_pack buart.Z_tx.Z_baudgen.counter_5_LC_11_8_2 { buart.Z_tx.Z_baudgen.counter_RNO[5], buart.Z_tx.Z_baudgen.counter[5] }
+ble_pack buart.Z_tx.Z_baudgen.counter_RNINP26_6_LC_11_8_3 { buart.Z_tx.Z_baudgen.counter_RNINP26[6] }
+ble_pack buart.Z_tx.Z_baudgen.counter_6_LC_11_8_4 { buart.Z_tx.Z_baudgen.counter_RNO[6], buart.Z_tx.Z_baudgen.counter[6] }
+ble_pack buart.Z_tx.Z_baudgen.counter_RNIES38_0_4_LC_11_8_5 { buart.Z_tx.Z_baudgen.counter_RNIES38_0[4] }
+ble_pack buart.Z_tx.Z_baudgen.counter_RNIES38_4_LC_11_8_6 { buart.Z_tx.Z_baudgen.counter_RNIES38[4] }
+ble_pack buart.Z_tx.Z_baudgen.counter_RNI5M6E_6_LC_11_8_7 { buart.Z_tx.Z_baudgen.counter_RNI5M6E[6] }
+clb_pack LT_11_8 { buart.Z_tx.Z_baudgen.counter_4_LC_11_8_0, buart.Z_tx.Z_baudgen.counter_RNIQJ4A_4_LC_11_8_1, buart.Z_tx.Z_baudgen.counter_5_LC_11_8_2, buart.Z_tx.Z_baudgen.counter_RNINP26_6_LC_11_8_3, buart.Z_tx.Z_baudgen.counter_6_LC_11_8_4, buart.Z_tx.Z_baudgen.counter_RNIES38_0_4_LC_11_8_5, buart.Z_tx.Z_baudgen.counter_RNIES38_4_LC_11_8_6, buart.Z_tx.Z_baudgen.counter_RNI5M6E_6_LC_11_8_7 }
+set_location LT_11_8 11 8
+ble_pack buart.Z_tx.bitcount_RNIBADL_1_LC_11_9_0 { buart.Z_tx.bitcount_RNIBADL[1] }
+ble_pack buart.Z_tx.Z_baudgen.counter_RNIVE1P1_4_LC_11_9_1 { buart.Z_tx.Z_baudgen.counter_RNIVE1P1[4] }
+ble_pack buart.Z_tx.bitcount_2_LC_11_9_2 { buart.Z_tx.bitcount_RNO[2], buart.Z_tx.bitcount[2] }
+ble_pack buart.Z_tx.bitcount_RNO_0_2_LC_11_9_3 { buart.Z_tx.bitcount_RNO_0[2] }
+ble_pack buart.Z_tx.bitcount_RNIFEDL_3_LC_11_9_4 { buart.Z_tx.bitcount_RNIFEDL[3] }
+ble_pack buart.Z_tx.bitcount_RNIQL5G1_1_LC_11_9_5 { buart.Z_tx.bitcount_RNIQL5G1[1] }
+ble_pack buart.Z_tx.bitcount_RNO_0_3_LC_11_9_6 { buart.Z_tx.bitcount_RNO_0[3] }
+ble_pack buart.Z_tx.bitcount_3_LC_11_9_7 { buart.Z_tx.bitcount_RNO[3], buart.Z_tx.bitcount[3] }
+clb_pack LT_11_9 { buart.Z_tx.bitcount_RNIBADL_1_LC_11_9_0, buart.Z_tx.Z_baudgen.counter_RNIVE1P1_4_LC_11_9_1, buart.Z_tx.bitcount_2_LC_11_9_2, buart.Z_tx.bitcount_RNO_0_2_LC_11_9_3, buart.Z_tx.bitcount_RNIFEDL_3_LC_11_9_4, buart.Z_tx.bitcount_RNIQL5G1_1_LC_11_9_5, buart.Z_tx.bitcount_RNO_0_3_LC_11_9_6, buart.Z_tx.bitcount_3_LC_11_9_7 }
+set_location LT_11_9 11 9
+ble_pack buart.Z_tx.bitcount_RNIV8N32_1_LC_11_10_2 { buart.Z_tx.bitcount_RNIV8N32[1] }
+ble_pack Glue_Lab2.Gl_tx_data_rdy_LC_11_10_4 { Glue_Lab2.Gl_tx_data_rdy_RNO, Glue_Lab2.Gl_tx_data_rdy }
+ble_pack buart.Z_tx.bitcount_RNO_0_1_LC_11_10_5 { buart.Z_tx.bitcount_RNO_0[1] }
+ble_pack buart.Z_tx.bitcount_1_LC_11_10_6 { buart.Z_tx.bitcount_RNO[1], buart.Z_tx.bitcount[1] }
+ble_pack buart.Z_tx.bitcount_0_LC_11_10_7 { buart.Z_tx.bitcount_RNO[0], buart.Z_tx.bitcount[0] }
+clb_pack LT_11_10 { buart.Z_tx.bitcount_RNIV8N32_1_LC_11_10_2, Glue_Lab2.Gl_tx_data_rdy_LC_11_10_4, buart.Z_tx.bitcount_RNO_0_1_LC_11_10_5, buart.Z_tx.bitcount_1_LC_11_10_6, buart.Z_tx.bitcount_0_LC_11_10_7 }
+set_location LT_11_10 11 10
+ble_pack Glue_Lab2.de0.de_esc_4_LC_11_11_0 { Glue_Lab2.de0.de_esc_4 }
+ble_pack Glue_Lab2.de0.g0_10_LC_11_11_1 { Glue_Lab2.de0.g0_10 }
+ble_pack Glue_Lab2.de0.g0_3_LC_11_11_2 { Glue_Lab2.de0.g0_3 }
+ble_pack Glue_Lab2.reset_count_RNO_0_1_LC_11_11_3 { Glue_Lab2.reset_count_RNO_0[1] }
+ble_pack buart.Z_rx.shifter_4_LC_11_11_4 { buart.Z_rx.shifter_4_THRU_LUT4_0, buart.Z_rx.shifter[4] }
+ble_pack Glue_Lab2.de0.g0_5_LC_11_11_5 { Glue_Lab2.de0.g0_5 }
+ble_pack Glue_Lab2.de0.g0_9_LC_11_11_6 { Glue_Lab2.de0.g0_9 }
+ble_pack Glue_Lab2.reset_count_RNO_0_3_LC_11_11_7 { Glue_Lab2.reset_count_RNO_0[3] }
+clb_pack LT_11_11 { Glue_Lab2.de0.de_esc_4_LC_11_11_0, Glue_Lab2.de0.g0_10_LC_11_11_1, Glue_Lab2.de0.g0_3_LC_11_11_2, Glue_Lab2.reset_count_RNO_0_1_LC_11_11_3, buart.Z_rx.shifter_4_LC_11_11_4, Glue_Lab2.de0.g0_5_LC_11_11_5, Glue_Lab2.de0.g0_9_LC_11_11_6, Glue_Lab2.reset_count_RNO_0_3_LC_11_11_7 }
+set_location LT_11_11 11 11
+ble_pack buart.Z_rx.shifter_2_LC_11_12_0 { buart.Z_rx.shifter_2_THRU_LUT4_0, buart.Z_rx.shifter[2] }
+ble_pack buart.Z_rx.shifter_5_LC_11_12_1 { buart.Z_rx.shifter_5_THRU_LUT4_0, buart.Z_rx.shifter[5] }
+ble_pack buart.Z_rx.shifter_fast_4_LC_11_12_2 { buart.Z_rx.shifter_fast_4_THRU_LUT4_0, buart.Z_rx.shifter_fast[4] }
+clb_pack LT_11_12 { buart.Z_rx.shifter_2_LC_11_12_0, buart.Z_rx.shifter_5_LC_11_12_1, buart.Z_rx.shifter_fast_4_LC_11_12_2 }
+set_location LT_11_12 11 12
+ble_pack Glue_Lab2.Gl_tx_data_RNO_1_5_LC_11_13_0 { Glue_Lab2.Gl_tx_data_RNO_1[5] }
+ble_pack Glue_Lab2.Gl_tx_data_RNO_0_5_LC_11_13_1 { Glue_Lab2.Gl_tx_data_RNO_0[5] }
+ble_pack Lab_UT.S_0_s_ac0_5_0_0_LC_11_13_3 { Lab_UT.S_0_s_ac0_5_0_0 }
+ble_pack Lab_UT.S_1_c3_c_LC_11_13_5 { Lab_UT.S_1_c3_c }
+ble_pack Lab_UT.S_1_c4_LC_11_13_6 { Lab_UT.S_1_c4 }
+ble_pack Lab_UT.L2_led_1_4_LC_11_13_7 { Lab_UT.L2_led_1[4] }
+clb_pack LT_11_13 { Glue_Lab2.Gl_tx_data_RNO_1_5_LC_11_13_0, Glue_Lab2.Gl_tx_data_RNO_0_5_LC_11_13_1, Lab_UT.S_0_s_ac0_5_0_0_LC_11_13_3, Lab_UT.S_1_c3_c_LC_11_13_5, Lab_UT.S_1_c4_LC_11_13_6, Lab_UT.L2_led_1_4_LC_11_13_7 }
+set_location LT_11_13 11 13
+ble_pack buart.Z_tx.Z_baudgen.counter_2_LC_12_8_0 { buart.Z_tx.Z_baudgen.counter_RNO[2], buart.Z_tx.Z_baudgen.counter[2] }
+ble_pack buart.Z_tx.Z_baudgen.counter_3_LC_12_8_1 { buart.Z_tx.Z_baudgen.counter_RNO[3], buart.Z_tx.Z_baudgen.counter[3] }
+clb_pack LT_12_8 { buart.Z_tx.Z_baudgen.counter_2_LC_12_8_0, buart.Z_tx.Z_baudgen.counter_3_LC_12_8_1 }
+set_location LT_12_8 12 8
+ble_pack buart.Z_tx.shifter_8_LC_12_10_1 { Glue_Lab2.Gl_tx_data_rdy_RNI0TA5, buart.Z_tx.shifter[8] }
+clb_pack LT_12_10 { buart.Z_tx.shifter_8_LC_12_10_1 }
+set_location LT_12_10 12 10
+ble_pack Glue_Lab2.de0.g0_8_LC_12_11_1 { Glue_Lab2.de0.g0_8 }
+clb_pack LT_12_11 { Glue_Lab2.de0.g0_8_LC_12_11_1 }
+set_location LT_12_11 12 11
+ble_pack Lab_UT.sDelay.delayReg_3_LC_12_12_0 { Lab_UT.sDelay.delayReg_RNO[3], Lab_UT.sDelay.delayReg[3] }
+ble_pack Glue_Lab2.de0.g0_6_LC_12_12_5 { Glue_Lab2.de0.g0_6 }
+ble_pack Lab_UT.sDelay.delayReg_2_LC_12_12_6 { Lab_UT.sDelay.delayReg_RNO[2], Lab_UT.sDelay.delayReg[2] }
+ble_pack Lab_UT.sDelay.delayReg_4_LC_12_12_7 { Lab_UT.sDelay.delayReg_RNO[4], Lab_UT.sDelay.delayReg[4] }
+clb_pack LT_12_12 { Lab_UT.sDelay.delayReg_3_LC_12_12_0, Glue_Lab2.de0.g0_6_LC_12_12_5, Lab_UT.sDelay.delayReg_2_LC_12_12_6, Lab_UT.sDelay.delayReg_4_LC_12_12_7 }
+set_location LT_12_12 12 12
+set_location clk_derived_clock_RNI7BQ7 0 9
+set_io to_ir 105
+set_io test2 47
+set_io sd 107
+set_io led[2] 97
+set_io test1 45
+set_io o_serial_data 8
+set_io led[1] 98
+set_io led[4] 95
+set_io led[0] 99
+set_io from_pc 9
+set_io test3 48
+set_io led[3] 96
+set_io clk_in 21

@@ -1,0 +1,242 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40HX1KTQ144 (Lattice)
+
+---------------------------------------------------------------------------
+########   Utilization report for  Top level view:   latticehx1k   ########
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     84                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block latticehx1k:	84 (27.01 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       179                100 %                
+CARRYS     8                  100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block latticehx1k:	187 (60.13 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     14                 100 %                
+=================================================
+Total IO PADS in the block latticehx1k:	14 (4.50 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   Glue_Lab2   ########
+Instance path:   latticehx1k.Glue_Lab2                         
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     35                 41.7 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block latticehx1k.Glue_Lab2:	35 (11.25 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       65                 36.3 %               
+CARRYS     4                  50 %                 
+===================================================
+Total COMBINATIONAL LOGIC in the block latticehx1k.Glue_Lab2:	69 (22.19 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   decodeKeys   ########
+Instance path:   Glue_Lab2.decodeKeys                           
+================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     24                 13.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Glue_Lab2.decodeKeys:	24 (7.72 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   gl_fsm   ########
+Instance path:   Glue_Lab2.gl_fsm                           
+============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     2                  2.38 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block Glue_Lab2.gl_fsm:	2 (0.64 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     9                  5.03 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Glue_Lab2.gl_fsm:	9 (2.89 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   Lab2_140L   ########
+Instance path:   latticehx1k.Lab2_140L                         
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     5                  5.95 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block latticehx1k.Lab2_140L:	5 (1.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     50                 27.9 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block latticehx1k.Lab2_140L:	50 (16.08 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   sigDelay   ########
+Instance path:   Lab2_140L.sigDelay                           
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     5                  5.95 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block Lab2_140L.sigDelay:	5 (1.61 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     5                  2.79 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Lab2_140L.sigDelay:	5 (1.61 % Utilization)
+
+-----------------------------------------------------------
+########   Utilization report for  cell:   buart   ########
+Instance path:   latticehx1k.buart                         
+===========================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     44                 52.4 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block latticehx1k.buart:	44 (14.15 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       64                 35.8 %               
+CARRYS     4                  50 %                 
+===================================================
+Total COMBINATIONAL LOGIC in the block latticehx1k.buart:	68 (21.86 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   rxuart   ########
+Instance path:   buart.rxuart                               
+============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     23                 27.4 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block buart.rxuart:	23 (7.40 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       30                 16.8 %               
+CARRYS     4                  50 %                 
+===================================================
+Total COMBINATIONAL LOGIC in the block buart.rxuart:	34 (10.93 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   baudgen2   ########
+Instance path:   rxuart.baudgen2                              
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     6                  7.14 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block rxuart.baudgen2:	6 (1.93 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     11                 6.15 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block rxuart.baudgen2:	11 (3.54 % Utilization)
+
+----------------------------------------------------------
+########   Utilization report for  cell:   uart   ########
+Instance path:   buart.uart                               
+==========================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     21                 25 %                 
+==================================================
+Total SEQUENTIAL ELEMENTS in the block buart.uart:	21 (6.75 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     34                 19 %                 
+=================================================
+Total COMBINATIONAL LOGIC in the block buart.uart:	34 (10.93 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   baudgen   ########
+Instance path:   uart.baudgen                                
+=============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     7                  8.33 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block uart.baudgen:	7 (2.25 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     14                 7.82 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block uart.baudgen:	14 (4.50 % Utilization)
+
+-----------------------------------------------------------
+########   Utilization report for  cell:   inpin   ########
+Instance path:   latticehx1k.inpin                         
+===========================================================
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  7.14 %               
+=================================================
+Total IO PADS in the block latticehx1k.inpin:	1 (0.32 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

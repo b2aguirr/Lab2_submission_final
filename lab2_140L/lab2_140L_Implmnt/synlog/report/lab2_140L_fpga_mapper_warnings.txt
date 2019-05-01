@@ -1,0 +1,2 @@
+@W: FX1039 :"c:\programdata\userdatafolders\s-1-5-21-2723846591-3728122270-775204260-1009\my files\home folder\lab2-b2aguirr\buart.v":183:2:183:7|User-specified initial value defined for instance buart._rx.hh[1:0] is being ignored. 
+@W: MT420 |Found inferred clock latticehx1k|clk_in with period 9.61ns. Please declare a user-defined clock on object "p:clk_in"

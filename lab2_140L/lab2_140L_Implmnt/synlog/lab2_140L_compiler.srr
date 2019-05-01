@@ -1,0 +1,113 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\buart.v" (library work)
+@I::"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\Lab2_140L.v" (library work)
+@I::"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v" (library work)
+Verilog syntax check successful!
+File C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\buart.v changed - recompiling
+Selecting top level module latticehx1k
+@N: CG364 :"C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v":698:7:698:19|Synthesizing module SB_PLL40_CORE in library work.
+
+@N: CG364 :"C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v":501:7:501:11|Synthesizing module SB_IO in library work.
+
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":178:7:178:11|Synthesizing module inpin in library work.
+
+@W: CG781 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":183:33:183:35|Input LATCH_INPUT_VALUE on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":183:33:183:35|Input CLOCK_ENABLE on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":183:33:183:35|Input OUTPUT_CLK on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":183:33:183:35|Input OUTPUT_ENABLE on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":183:33:183:35|Input D_OUT_1 on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":183:33:183:35|Input D_OUT_0 on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG1273 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":184:21:184:23|An input port (port pin) is the target of an assignment - please check if this is intentional
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\buart.v":60:7:60:14|Synthesizing module baudgen2 in library work.
+
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\buart.v":130:7:130:12|Synthesizing module rxuart in library work.
+
+@W: CL265 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\buart.v":183:2:183:7|Removing unused bit 2 of hh[2:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\buart.v":40:7:40:13|Synthesizing module baudgen in library work.
+
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\buart.v":89:7:89:10|Synthesizing module uart in library work.
+
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\buart.v":197:7:197:11|Synthesizing module buart in library work.
+
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":47:7:47:16|Synthesizing module decodeKeys in library work.
+
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":103:7:103:12|Synthesizing module gl_fsm in library work.
+
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":199:7:199:15|Synthesizing module Glue_Lab2 in library work.
+
+@N: CG179 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":276:10:276:14|Removing redundant assignment.
+@N: CG179 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":281:10:281:14|Removing redundant assignment.
+@N: CG179 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":286:10:286:14|Removing redundant assignment.
+@N: CG179 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":321:23:321:33|Removing redundant assignment.
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\Lab2_140L.v":136:7:136:15|Synthesizing module fullAdder in library work.
+
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\Lab2_140L.v":114:7:114:14|Synthesizing module sigDelay in library work.
+
+@W: CL271 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\Lab2_140L.v":124:3:124:8|Pruning unused bits 15 to 5 of delayReg[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\Lab2_140L.v":20:7:20:15|Synthesizing module Lab2_140L in library work.
+
+@W: CG133 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\Lab2_140L.v":42:11:42:13|Object neg is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":342:7:342:17|Synthesizing module latticehx1k in library work.
+
+@W: CG781 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":409:15:409:15|Input EXTFEEDBACK on instance ice_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":410:16:410:16|Input DYNAMICDELAY on instance ice_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":413:19:413:19|Input LATCHINPUTVALUE on instance ice_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":415:7:415:7|Input SDI on instance ice_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":417:8:417:8|Input SCLK on instance ice_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG360 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":446:20:446:29|Removing wire bu_tx_busy, as there is no assignment to it.
+@W: CL156 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":446:20:446:29|*Input bu_tx_busy to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL246 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\Lab2_140L.v":25:18:25:22|Input port bits 7 to 4 of Gl_r1[7:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\Lab2_140L.v":26:18:26:22|Input port bits 7 to 4 of Gl_r2[7:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":221:19:221:24|Input port bits 7 to 5 of L2_led[7:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL201 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":166:3:166:8|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL159 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":110:25:110:34|Input bu_tx_busy is unused.
+
+At c_ver Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed May 01 17:38:59 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":342:7:342:17|Selected library: work cell: latticehx1k view verilog as top level
+@N: NF107 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":342:7:342:17|Selected library: work cell: latticehx1k view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed May 01 17:38:59 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed May 01 17:39:00 2019
+
+###########################################################]

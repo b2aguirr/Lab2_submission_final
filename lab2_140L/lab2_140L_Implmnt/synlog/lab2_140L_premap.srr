@@ -1,0 +1,78 @@
+# Wed May 01 17:39:07 2019
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\ICECUBE\lab2_140L\lab2_140L_Implmnt\lab2_140L_scck.rpt 
+Printing clock  summary report in "C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\ICECUBE\lab2_140L\lab2_140L_Implmnt\lab2_140L_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=16  set on top level netlist latticehx1k
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+
+Clock Summary
+*****************
+
+Start                             Requested     Requested     Clock                                 Clock                     Clock
+Clock                             Frequency     Period        Type                                  Group                     Load 
+-----------------------------------------------------------------------------------------------------------------------------------
+latticehx1k|clk_derived_clock     104.2 MHz     9.600         derived (from latticehx1k|clk_in)     Autoconstr_clkgroup_0     91   
+latticehx1k|clk_in                26.0 MHz      38.400        inferred                              Autoconstr_clkgroup_0     0    
+===================================================================================================================================
+
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\ICECUBE\lab2_140L\lab2_140L_Implmnt\lab2_140L.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+Encoding state machine state[3:0] (in view: work.gl_fsm(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\programdata\userdatafolders\s-1-5-21-2723846591-3728122270-775204260-1009\my files\home folder\lab2-b2aguirr\latticehx1k.v":166:3:166:8|There are no possible illegal states for state machine state[3:0] (in view: work.gl_fsm(verilog)); safe FSM implementation is not required.
+@N: BN362 :"c:\programdata\userdatafolders\s-1-5-21-2723846591-3728122270-775204260-1009\my files\home folder\lab2-b2aguirr\latticehx1k.v":272:3:272:8|Removing sequential instance Gl_r1[4] (in view: work.Glue_Lab2(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\programdata\userdatafolders\s-1-5-21-2723846591-3728122270-775204260-1009\my files\home folder\lab2-b2aguirr\latticehx1k.v":272:3:272:8|Removing sequential instance Gl_r1[5] (in view: work.Glue_Lab2(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\programdata\userdatafolders\s-1-5-21-2723846591-3728122270-775204260-1009\my files\home folder\lab2-b2aguirr\latticehx1k.v":272:3:272:8|Removing sequential instance Gl_r1[6] (in view: work.Glue_Lab2(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\programdata\userdatafolders\s-1-5-21-2723846591-3728122270-775204260-1009\my files\home folder\lab2-b2aguirr\latticehx1k.v":272:3:272:8|Removing sequential instance Gl_r1[7] (in view: work.Glue_Lab2(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\programdata\userdatafolders\s-1-5-21-2723846591-3728122270-775204260-1009\my files\home folder\lab2-b2aguirr\latticehx1k.v":272:3:272:8|Removing sequential instance Gl_r2[4] (in view: work.Glue_Lab2(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\programdata\userdatafolders\s-1-5-21-2723846591-3728122270-775204260-1009\my files\home folder\lab2-b2aguirr\latticehx1k.v":272:3:272:8|Removing sequential instance Gl_r2[5] (in view: work.Glue_Lab2(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\programdata\userdatafolders\s-1-5-21-2723846591-3728122270-775204260-1009\my files\home folder\lab2-b2aguirr\latticehx1k.v":272:3:272:8|Removing sequential instance Gl_r2[6] (in view: work.Glue_Lab2(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\programdata\userdatafolders\s-1-5-21-2723846591-3728122270-775204260-1009\my files\home folder\lab2-b2aguirr\latticehx1k.v":272:3:272:8|Removing sequential instance Gl_r2[7] (in view: work.Glue_Lab2(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 134MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+# Wed May 01 17:39:11 2019
+
+###########################################################]

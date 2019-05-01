@@ -1,0 +1,27 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v":698:7:698:19|Synthesizing module SB_PLL40_CORE in library work.
+@N: CG364 :"C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v":501:7:501:11|Synthesizing module SB_IO in library work.
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":178:7:178:11|Synthesizing module inpin in library work.
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\buart.v":60:7:60:14|Synthesizing module baudgen2 in library work.
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\buart.v":130:7:130:12|Synthesizing module rxuart in library work.
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\buart.v":40:7:40:13|Synthesizing module baudgen in library work.
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\buart.v":89:7:89:10|Synthesizing module uart in library work.
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\buart.v":197:7:197:11|Synthesizing module buart in library work.
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":47:7:47:16|Synthesizing module decodeKeys in library work.
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":103:7:103:12|Synthesizing module gl_fsm in library work.
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":199:7:199:15|Synthesizing module Glue_Lab2 in library work.
+@N: CG179 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":276:10:276:14|Removing redundant assignment.
+@N: CG179 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":281:10:281:14|Removing redundant assignment.
+@N: CG179 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":286:10:286:14|Removing redundant assignment.
+@N: CG179 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":321:23:321:33|Removing redundant assignment.
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\Lab2_140L.v":136:7:136:15|Synthesizing module fullAdder in library work.
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\Lab2_140L.v":114:7:114:14|Synthesizing module sigDelay in library work.
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\Lab2_140L.v":20:7:20:15|Synthesizing module Lab2_140L in library work.
+@N: CG364 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":342:7:342:17|Synthesizing module latticehx1k in library work.
+@N: CL201 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":166:3:166:8|Trying to extract state machine for register state.
+@N: CL159 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":110:25:110:34|Input bu_tx_busy is unused.
+@N|Running in 64-bit mode
+@N: NF107 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":342:7:342:17|Selected library: work cell: latticehx1k view verilog as top level
+@N: NF107 :"C:\ProgramData\UserDataFolders\S-1-5-21-2723846591-3728122270-775204260-1009\My Files\Home Folder\lab2-b2aguirr\latticehx1k.v":342:7:342:17|Selected library: work cell: latticehx1k view verilog as top level
+
