@@ -1,0 +1,174 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# ** Warning: (vish-164) Directory 'D:/PhotonUser/AppData/Local/Temp' specified with environment variable $TMPDIR does not exist.
+# Invalid argument. (errno = EINVAL)
+# ** Warning: (vsim-164) Directory 'D:/PhotonUser/AppData/Local/Temp' specified with environment variable $TMPDIR does not exist.
+# No such file or directory. (errno = ENOENT)
+# do Lab2_140L_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/PhotonUser/My\ Files/Home\ Folder/lab2-b2aguirr {D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/Lab2_140L.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:15 on Apr 30,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr" D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/Lab2_140L.v 
+# -- Compiling module Lab2_140L
+# -- Compiling module sigDelay
+# -- Compiling module fullAdder
+# 
+# Top level modules:
+# 	Lab2_140L
+# End time: 19:38:16 on Apr 30,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work {D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/fake_buart.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:31 on Apr 30,2019
+# vlog -reportprogress 300 -work work D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/fake_buart.v 
+# -- Compiling module fake_buart
+# 
+# Top level modules:
+# 	fake_buart
+# End time: 19:38:33 on Apr 30,2019, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/fake_pll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:33 on Apr 30,2019
+# vlog -reportprogress 300 -work work D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/fake_pll.v 
+# -- Compiling module fake_pll
+# 
+# Top level modules:
+# 	fake_pll
+# End time: 19:38:34 on Apr 30,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/Lab2_140L.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:34 on Apr 30,2019
+# vlog -reportprogress 300 -work work D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/Lab2_140L.v 
+# -- Compiling module Lab2_140L
+# -- Compiling module sigDelay
+# -- Compiling module fullAdder
+# 
+# Top level modules:
+# 	Lab2_140L
+# End time: 19:38:36 on Apr 30,2019, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/latticehx1k.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:36 on Apr 30,2019
+# vlog -reportprogress 300 -work work D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/latticehx1k.v 
+# -- Compiling module decodeKeys
+# -- Compiling module gl_fsm
+# -- Compiling module Glue_Lab2
+# -- Compiling module latticehx1k
+# 
+# Top level modules:
+# 	latticehx1k
+# End time: 19:38:37 on Apr 30,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work {D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/tb_sft.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:37 on Apr 30,2019
+# vlog -reportprogress 30 -work work D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/tb_sft.v 
+# -- Compiling module tb_sft
+# 
+# Top level modules:
+# 	tb_sft
+# End time: 19:38:38 on Apr 30,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work {D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/top_sft.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:38 on Apr 30,2019
+# vlog -reportprogress 30 -work work D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/top_sft.v 
+# -- Compiling module top_sft
+# 
+# Top level modules:
+# 	top_sft
+# End time: 19:38:39 on Apr 30,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.top_sft
+# vsim work.top_sft 
+# Start time: 19:38:57 on Apr 30,2019
+# Loading work.top_sft
+# Loading work.latticehx1k
+# Loading work.fake_pll
+# Loading work.fake_buart
+# Loading work.Glue_Lab2
+# Loading work.decodeKeys
+# Loading work.gl_fsm
+# Loading work.Lab2_140L
+# Loading work.fullAdder
+# Loading work.sigDelay
+# Loading work.tb_sft
+vsim work.top_sft
+# End time: 19:39:04 on Apr 30,2019, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
+# vsim work.top_sft 
+# Start time: 19:39:04 on Apr 30,2019
+# Loading work.top_sft
+# Loading work.latticehx1k
+# Loading work.fake_pll
+# Loading work.fake_buart
+# Loading work.Glue_Lab2
+# Loading work.decodeKeys
+# Loading work.gl_fsm
+# Loading work.Lab2_140L
+# Loading work.fullAdder
+# Loading work.sigDelay
+# Loading work.tb_sft
+add wave -position insertpoint sim:/top_sft/tb_sft/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: PhotonUser  Hostname: WIN-5VUDHM4G6BL  ProcessID: 2604
+#           Attempting to use alternate WLF file "./wlft4zz274".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft4zz274
+run -all
+# pass : 0 + 4 = 0x04 != 4
+# pass : 0 + 4 = 0x04 != leds 00100
+# fail : 5 - 2 0x03 == S
+# pass : 5 - 2 = 0x03 != leds 00011
+# fail : 2 - 3 0x1f == ?
+# pass : 2 - 3 = 0x1f != leds 11111
+# ** Note: $finish    : D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/tb_sft.v(210)
+#    Time: 3240 ps  Iteration: 1  Instance: /top_sft/tb_sft
+# 1
+# Break in Module tb_sft at D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/tb_sft.v line 210
+add wave -position insertpoint  \
+sim:/top_sft/latticehx1k/Lab_UT/Gl_rst \
+sim:/top_sft/latticehx1k/Lab_UT/clk \
+sim:/top_sft/latticehx1k/Lab_UT/Gl_adder_start \
+sim:/top_sft/latticehx1k/Lab_UT/Gl_subtract \
+sim:/top_sft/latticehx1k/Lab_UT/Gl_r1 \
+sim:/top_sft/latticehx1k/Lab_UT/Gl_r2 \
+sim:/top_sft/latticehx1k/Lab_UT/L2_adder_data \
+sim:/top_sft/latticehx1k/Lab_UT/L2_adder_rdy \
+sim:/top_sft/latticehx1k/Lab_UT/L2_led \
+sim:/top_sft/latticehx1k/Lab_UT/Gl_r2_new \
+sim:/top_sft/latticehx1k/Lab_UT/S1 \
+sim:/top_sft/latticehx1k/Lab_UT/S2 \
+sim:/top_sft/latticehx1k/Lab_UT/S3 \
+sim:/top_sft/latticehx1k/Lab_UT/S4 \
+sim:/top_sft/latticehx1k/Lab_UT/C_out1 \
+sim:/top_sft/latticehx1k/Lab_UT/C_out2 \
+sim:/top_sft/latticehx1k/Lab_UT/C_out3 \
+sim:/top_sft/latticehx1k/Lab_UT/C_out4 \
+sim:/top_sft/latticehx1k/Lab_UT/result_temp \
+sim:/top_sft/latticehx1k/Lab_UT/neg
+restart
+run -all
+# pass : 0 + 4 = 0x04 != 4
+# pass : 0 + 4 = 0x04 != leds 00100
+# fail : 5 - 2 0x03 == S
+# pass : 5 - 2 = 0x03 != leds 00011
+# fail : 2 - 3 0x1f == ?
+# pass : 2 - 3 = 0x1f != leds 11111
+# ** Note: $finish    : D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/tb_sft.v(210)
+#    Time: 3240 ps  Iteration: 1  Instance: /top_sft/tb_sft
+# 1
+# Break in Module tb_sft at D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/tb_sft.v line 210

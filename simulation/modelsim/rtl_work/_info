@@ -1,0 +1,246 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/PhotonUser/My Files/Home Folder/LAB2-B2AGUIRR/SIMULATION/MODELSIM
+vdecodeKeys
+Z1 !s110 1556653116
+!i10b 1
+!s100 ljo@;knR7YQI6gHF<f;n10
+IcGEfe;<<hR4[mGUjTzSgN2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1556493899
+Z4 8D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/latticehx1k.v
+Z5 FD:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/latticehx1k.v
+L0 47
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1556653116.000000
+Z8 !s107 D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/latticehx1k.v|
+Z9 !s90 -reportprogress|300|-work|work|D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/latticehx1k.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+ndecode@keys
+vfake_buart
+!s110 1556653112
+!i10b 1
+!s100 [XcIme8A<;c_TfCkh[d3>0
+Ih1Z]HbbUjJWan5>GMm:BO3
+R2
+R0
+Z12 w1556216000
+8D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/fake_buart.v
+FD:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/fake_buart.v
+L0 30
+R6
+r1
+!s85 0
+31
+!s108 1556653111.000000
+!s107 D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/fake_buart.v|
+!s90 -reportprogress|300|-work|work|D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/fake_buart.v|
+!i113 1
+R10
+R11
+vfake_pll
+!s110 1556653114
+!i10b 1
+!s100 UJM@AVG8MHT;MFBGo`^kb0
+I1MPzYGc@A7^zRDPV5V2:[2
+R2
+R0
+R12
+8D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/fake_pll.v
+FD:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/fake_pll.v
+L0 26
+R6
+r1
+!s85 0
+31
+!s108 1556653113.000000
+!s107 D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/fake_pll.v|
+!s90 -reportprogress|300|-work|work|D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/fake_pll.v|
+!i113 1
+R10
+R11
+vfullAdder
+Z13 !s110 1556653115
+!i10b 1
+!s100 4]8SUOATf6cll@OEaH>a23
+I=HTmM_g?W1S:fW63d4Q3D2
+R2
+R0
+Z14 w1556652361
+Z15 8D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/Lab2_140L.v
+Z16 FD:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/Lab2_140L.v
+L0 155
+R6
+r1
+!s85 0
+31
+Z17 !s108 1556653114.000000
+Z18 !s107 D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/Lab2_140L.v|
+Z19 !s90 -reportprogress|300|-work|work|D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/Lab2_140L.v|
+!i113 1
+R10
+R11
+nfull@adder
+vgl_fsm
+R1
+!i10b 1
+!s100 TTiE@i8TkDMYm?iV3lE9f0
+IV^BO4GoBBa?iNTcVZP;WE1
+R2
+R0
+R3
+R4
+R5
+L0 103
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vGlue_Lab2
+Z20 !s110 1556653117
+!i10b 1
+!s100 4NjWE5?>T8@o5XYGX3G?T1
+I7GG9:a5oGnUj`PWAXz]dW0
+R2
+R0
+R3
+R4
+R5
+L0 199
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@glue_@lab2
+vLab2_140L
+R13
+!i10b 1
+!s100 H7Emm[z?5_5]k`JndTV3j0
+IRQIlRgADDdcE8Y]e0FcPl3
+R2
+R0
+R14
+R15
+R16
+L0 20
+R6
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R10
+R11
+n@lab2_140@l
+vlatticehx1k
+R20
+!i10b 1
+!s100 T3Pm5ONAeZDXdj8FHFWB50
+ISzddm`@A]8VdQ^<=eX:<R3
+R2
+R0
+R3
+R4
+R5
+L0 342
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vsigDelay
+R13
+!i10b 1
+!s100 7LHWlihbfFWXm4Yj5PTP51
+I2NJ_G0RVEi9=ifK]V?iON3
+R2
+R0
+R14
+R15
+R16
+L0 133
+R6
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R10
+R11
+nsig@delay
+vtb_sft
+Z21 !s110 1556653118
+!i10b 1
+!s100 _=N_co=4`^o8ofcLLAOjb1
+I4HZW_Fe:J_Vl[AWmbLAon0
+R2
+R0
+w1556494050
+8D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/tb_sft.v
+FD:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/tb_sft.v
+L0 37
+R6
+r1
+!s85 0
+31
+!s108 1556653117.000000
+!s107 D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/tb_sft.v|
+!s90 -reportprogress|30|-work|work|D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/tb_sft.v|
+!i113 1
+R10
+R11
+vtop_sft
+R21
+!i10b 1
+!s100 `d5LbO[?WeUf<?R2TUGR^3
+I9[6Ai06M=dAce61iXhHSA3
+R2
+R0
+R12
+8D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/top_sft.v
+FD:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/top_sft.v
+L0 28
+R6
+r1
+!s85 0
+31
+!s108 1556653118.000000
+!s107 D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/top_sft.v|
+!s90 -reportprogress|30|-work|work|D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/top_sft.v|
+!i113 1
+R10
+R11

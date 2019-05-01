@@ -1,0 +1,49 @@
+vsim work.top_sft 
+Start time: 19:38:57 on Apr 30,2019
+Loading work.top_sft
+Loading work.latticehx1k
+Loading work.fake_pll
+Loading work.fake_buart
+Loading work.Glue_Lab2
+Loading work.decodeKeys
+Loading work.gl_fsm
+Loading work.Lab2_140L
+Loading work.fullAdder
+Loading work.sigDelay
+Loading work.tb_sft
+End time: 19:39:04 on Apr 30,2019, Elapsed time: 0:00:07
+Errors: 0, Warnings: 0
+vsim work.top_sft 
+Start time: 19:39:04 on Apr 30,2019
+Loading work.top_sft
+Loading work.latticehx1k
+Loading work.fake_pll
+Loading work.fake_buart
+Loading work.Glue_Lab2
+Loading work.decodeKeys
+Loading work.gl_fsm
+Loading work.Lab2_140L
+Loading work.fullAdder
+Loading work.sigDelay
+Loading work.tb_sft
+** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+          File in use by: PhotonUser  Hostname: WIN-5VUDHM4G6BL  ProcessID: 2604
+          Attempting to use alternate WLF file "./wlft4zz274".
+** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+          Using alternate file: ./wlft4zz274
+pass : 0 + 4 = 0x04 != 4
+pass : 0 + 4 = 0x04 != leds 00100
+fail : 5 - 2 0x03 == S
+pass : 5 - 2 = 0x03 != leds 00011
+fail : 2 - 3 0x1f == ?
+pass : 2 - 3 = 0x1f != leds 11111
+** Note: $finish    : D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/tb_sft.v(210)
+   Time: 3240 ps  Iteration: 1  Instance: /top_sft/tb_sft
+pass : 0 + 4 = 0x04 != 4
+pass : 0 + 4 = 0x04 != leds 00100
+fail : 5 - 2 0x03 == S
+pass : 5 - 2 = 0x03 != leds 00011
+fail : 2 - 3 0x1f == ?
+pass : 2 - 3 = 0x1f != leds 11111
+** Note: $finish    : D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/tb_sft.v(210)
+   Time: 3240 ps  Iteration: 1  Instance: /top_sft/tb_sft

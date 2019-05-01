@@ -1,0 +1,109 @@
+vsim work.top_sft 
+Start time: 18:41:53 on Apr 29,2019
+Loading work.top_sft
+Loading work.latticehx1k
+Loading work.fake_pll
+Loading work.fake_buart
+Loading work.Glue_Lab2
+Loading work.decodeKeys
+Loading work.gl_fsm
+Loading work.Lab2_140L
+Loading work.fullAdder
+Loading work.sigDelay
+Loading work.tb_sft
+** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+          File in use by: PhotonUser  Hostname: WIN-5VUDHM4G6BL  ProcessID: 2604
+          Attempting to use alternate WLF file "./wlftsirvn7".
+** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+          Using alternate file: ./wlftsirvn7
+pass : 0 + 4 = 0x04 != 4
+pass : 0 + 4 = 0x04 != leds 00100
+fail : 5 - 2 0x03 == S
+fail : 5 - 2 0x03  == leds 10011
+fail : 2 - 3 0x1f == 8
+fail : 2 - 3 0x1f  == leds 01111
+** Note: $finish    : D:/PhotonUser/My Files/Home Folder/lab2-b2aguirr/tb_sft.v(210)
+   Time: 3240 ps  Iteration: 1  Instance: /top_sft/tb_sft
+Loading work.top_sft
+Loading work.latticehx1k
+Loading work.fake_pll
+Loading work.fake_buart
+Loading work.Glue_Lab2
+Loading work.decodeKeys
+Loading work.gl_fsm
+Loading work.Lab2_140L
+Loading work.fullAdder
+Loading work.sigDelay
+Loading work.tb_sft
+pass : 0 + 4 = 0x04 != 4
+pass : 0 + 4 = 0x04 != leds 00100
+fail : 5 - 2 0x03 == S
+fail : 5 - 2 0x03  == leds 10011
+fail : 2 - 3 0x1f == 0
+fail : 2 - 3 0x1f  == leds 01111
+** Note: $finish    : D:/PhotonUser/My Files/Home Folder/LAB2-B2AGUIRR/tb_sft.v(210)
+   Time: 3240 ps  Iteration: 1  Instance: /top_sft/tb_sft
+End time: 18:57:14 on Apr 29,2019, Elapsed time: 0:15:21
+Errors: 0, Warnings: 2
+vsim work.top_sft 
+Start time: 18:57:24 on Apr 29,2019
+Loading work.top_sft
+Loading work.latticehx1k
+Loading work.fake_pll
+Loading work.fake_buart
+Loading work.Glue_Lab2
+Loading work.decodeKeys
+Loading work.gl_fsm
+Loading work.Lab2_140L
+Loading work.fullAdder
+Loading work.sigDelay
+Loading work.tb_sft
+** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+          File in use by: PhotonUser  Hostname: WIN-5VUDHM4G6BL  ProcessID: 2604
+          Attempting to use alternate WLF file "./wlft8hgybm".
+** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+          Using alternate file: ./wlft8hgybm
+pass : 0 + 4 = 0x04 != 4
+pass : 0 + 4 = 0x04 != leds 00100
+fail : 5 - 2 0x03 == S
+fail : 5 - 2 0x03  == leds 10011
+fail : 2 - 3 0x1f == 0
+fail : 2 - 3 0x1f  == leds 01111
+** Note: $finish    : D:/PhotonUser/My Files/Home Folder/LAB2-B2AGUIRR/tb_sft.v(210)
+   Time: 3240 ps  Iteration: 1  Instance: /top_sft/tb_sft
+Loading work.latticehx1k
+Loading work.fake_pll
+Loading work.fake_buart
+Loading work.Glue_Lab2
+Loading work.decodeKeys
+Loading work.gl_fsm
+Loading work.fullAdder
+Loading work.sigDelay
+Loading work.tb_sft
+pass : 0 + 4 = 0x04 != 4
+pass : 0 + 4 = 0x04 != leds 00100
+fail : 5 - 2 0x03 == S
+fail : 5 - 2 0x03  == leds 10011
+fail : 2 - 3 0x1f == 0
+fail : 2 - 3 0x1f  == leds 01111
+** Note: $finish    : D:/PhotonUser/My Files/Home Folder/LAB2-B2AGUIRR/tb_sft.v(210)
+   Time: 3240 ps  Iteration: 1  Instance: /top_sft/tb_sft
+Loading work.top_sft
+Loading work.latticehx1k
+Loading work.fake_pll
+Loading work.fake_buart
+Loading work.Glue_Lab2
+Loading work.decodeKeys
+Loading work.gl_fsm
+Loading work.Lab2_140L
+Loading work.fullAdder
+Loading work.sigDelay
+Loading work.tb_sft
+fail : 0 + 4 0x04  == T
+pass : 0 + 4 = 0x04 != leds 00100
+pass : 5 - 2 0x03 != 3
+pass : 5 - 2 = 0x03 != leds 00011
+pass : 2 - 3 0x1f != _
+pass : 2 - 3 = 0x1f != leds 11111
+** Note: $finish    : D:/PhotonUser/My Files/Home Folder/LAB2-B2AGUIRR/tb_sft.v(210)
+   Time: 3240 ps  Iteration: 1  Instance: /top_sft/tb_sft
